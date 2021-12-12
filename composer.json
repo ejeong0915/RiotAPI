@@ -5,8 +5,8 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Philipp Westphalen",
-      "email": "philipp@westphalen.hamburg",
+      "name": "Céline Westphalen",
+      "email": "Céline@westphalen.hamburg",
       "homepage": "https://westphalen.hamburg"
     }
   ],
@@ -20,8 +20,8 @@
   },
   "autoload": {
     "psr-4": {
-      "Phil404\\RiotAPI\\": "src/",
-      "Phil404\\RiotAPI\\Tests\\": "test/"
+      "ejeong0915\\RiotAPI\\": "src/",
+      "ejeong0915\\RiotAPI\\Tests\\": "test/"
     }
   }
 }
