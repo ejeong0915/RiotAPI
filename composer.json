@@ -1,0 +1,27 @@
+{
+  "name": "ejeong0915/riot_api",
+  "description": "Deliver an easy way to talk with the League Of Legends Api by RiotGames",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Philipp Westphalen",
+      "email": "philipp@westphalen.hamburg",
+      "homepage": "https://westphalen.hamburg"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "^6.4",
+    "squizlabs/php_codesniffer": "3.1.1"
+  },
+  "require": {
+    "php": "^7.0",
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Phil404\\RiotAPI\\": "src/",
+      "Phil404\\RiotAPI\\Tests\\": "test/"
+    }
+  }
+}
